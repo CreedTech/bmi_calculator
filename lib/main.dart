@@ -15,7 +15,7 @@ class BMICalculator extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch().copyWith(primary: const Color(0xFF0A0E21)),
         scaffoldBackgroundColor: const Color(0xff0A0E21),
       ),
-      home: InputPage(),
+      home: const InputPage(),
     );
   }
 }
